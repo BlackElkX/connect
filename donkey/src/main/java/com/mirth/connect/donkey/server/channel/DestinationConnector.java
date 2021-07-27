@@ -142,7 +142,7 @@ public abstract class DestinationConnector extends Connector implements Runnable
                 // If this is a queue thread and there's only one queue thread, return 0
                 return 0L;
             } else {
-                // If this is a queue thread and there are multiple queue threads, return the current thread ID
+                // IF this is a queue thread and there are multiple queue threads, return the current thread ID
                 return threadId;
             }
         } else {

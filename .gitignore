@@ -623,3 +623,7 @@
 
 # /webadmin/src/com/mirth/connect/webadmin/utils/
 
+donkey/code-coverage-reports/jacoco.exec
+server/appdata.old/configuration.properties
+appdata.old
+/server/appdata.old
